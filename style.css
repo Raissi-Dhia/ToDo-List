@@ -16,6 +16,7 @@ footer {
   border: 5px solid #b39f7a;
   border-radius: 25px; 
   background-color : #E1E8ED;
+  	font-family: oswald;
 }
 #ft {
 	margin-left : 40px; 
@@ -34,22 +35,24 @@ footer {
 	width : 100px;
 	height: 35px;
 	left: 550px;
+	border-radius: 25px; 
+	outline: none;
 }
 /*#ButtonText {
 	padding: 20px
 }*/
 #text:hover {
 
-width : 525px;
+width : 541px;
 	height: 35px;
 	 animation-name: text;
- 	 animation-duration: 0.9s;
+ 	 animation-duration: 1s;
 }
 #button:hover{
 	width : 115px;
 	height: 38px;
 	 animation-name: button;
- 	 animation-duration: 0.9s;
+ 	 animation-duration: 1s;
 
 }
 @keyframes button {
@@ -66,10 +69,33 @@ width : 525px;
 @keyframes text {
   0%   {width : 500px;
 		height: 30px;}
-  25%  {width : 510px;
+  10%  {width : 505px;
+		height: 31px;}
+  20%  {width : 510px;
 		height: 32px;}
-  50%  {width : 520px;
+  30% {width : 520px;
 		height: 33px;}
-  100% {width : 525px;
+  40% {width : 525px;
+        height: 34px;}
+  50% {width : 530px;
 		height: 34px;}
+  60% {width : 530px;
+		height: 35px;}
+  70% {width : 535px;
+		height: 36px;}
+	80% {width : 536px;
+		height: 37px;}
+	90% {width : 538px;
+		height: 38px;}
+}
+#DIV {
+	border: 30px
+}
+#H1 {
+	font
+	position: fixed;
+}
+@font-face {
+  font-family: oswald;
+  src: url(Oswald-VariableFont_wght.ttf);
 }
