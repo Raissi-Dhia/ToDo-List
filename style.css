@@ -7,6 +7,8 @@ header {
 	margin-left : 350px;
 	font-size: 50px;
 	height : 150px;
+	 animation-name: Title;
+  animation-duration: 20s;
 }
 footer {
   position: fixed;
@@ -49,7 +51,7 @@ width : 541px;
 }
 #button:hover{
 	width : 115px;
-	height: 30px;
+	height: 35px;
 	 animation-name: button;
  	 animation-duration: 0.4s;
 
@@ -83,7 +85,7 @@ width : 541px;
 	border: 30px
 }
 #H1 {
-	font-family: comfortaa;
+	font-family: comfortaa;	
 	position: fixed;
 }
 /*New Fint */
@@ -95,6 +97,24 @@ width : 541px;
   font-family: Comfortaa;
   src: url(Comfortaa-Light.ttf);
 }
-#buttonText{
+/*#buttonText{
 
+}*/
+@keyframes Title {
+ 0%    {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+#H4 {
+	font-family: oswald;
+margin: 0px 0px 600px 700px;
+}
+#list {
+	font-family: Comfortaa;
+border: 5px solid #b39f7a;
+ border-radius: 25px; 
+  background-color : #b0acaa;
+  width: 400px;
+  height: 300px;		
 }
