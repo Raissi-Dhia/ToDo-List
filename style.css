@@ -1,0 +1,17 @@
+body {	
+	background-image: url("background.jpg");
+	background-size: 100%;
+}
+header {
+	font-family: oswald;
+	margin-left : 350px;
+	font-size: 50px;
+	height : 150px;
+}
+footer {
+  position: fixed;
+  top: 800px;
+  right:;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
