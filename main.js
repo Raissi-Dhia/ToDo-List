@@ -5,7 +5,7 @@ $('#button').click(function () {
 	} else {
 	 $('#text').val('');	
 	// return	$('#list').append('<div id="DIV"><li>' + value + '</li></div>');
-return	$('#Todo').append('<h2>' + value + '</h2>').attr('class', 'list');
+return	$('#list').append('<br>'+'<li id="LISTA">' + value + '</li>');
 }
 });
 //This is for the enter key press
@@ -18,7 +18,7 @@ $('#text').keypress(function(event){
 	} else {
 	 $('#text').val('');	
 	// return	$('#list').append('<div id="DIV"><li>' + value + '</li></div>');
-		return	$('#Todo').append('<h2>' + value + '</h2>');
+		return	$('#list').append('<li id="LISTA">' + value + '</li>');
 		}
 	}
  event.stopPropagation();

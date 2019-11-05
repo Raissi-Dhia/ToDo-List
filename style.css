@@ -8,7 +8,8 @@ header {
 	font-size: 50px;
 	height : 150px;
 	 animation-name: Title;
-  animation-duration: 20s;
+  animation-duration: 15s;
+  animation-iteration-count: infinite
 }
 footer {
   position: fixed;
@@ -31,6 +32,9 @@ footer {
 	border-radius: 40px;
 	box-sizing: 100px;
 	outline: none;
+			cursor: pointer;
+  transition: 0.3s;
+  float: left;
 }
 #button{
 	width : 100px;
@@ -38,22 +42,31 @@ footer {
 	left: 550px;
 	border-radius: 25px; 
 	outline: none;
+	 cursor: pointer;
+  transition: 0.3s;
 }
 /*#ButtonText {
 	padding: 20px
 }*/
 #text:hover {
 
-width : 541px;
+	width : 541px;
 	height: 31px;
-	 animation-name: text;
- 	 animation-duration: 0.4s;
+	animation-name: text;
+ 	animation-duration: 0.4s;
+ 	background-color: #b39f7a;
+	box-shadow:
+	box-shadow: 5px 5px #888888; 
+
 }
+
 #button:hover{
+
 	width : 115px;
 	height: 35px;
-	 animation-name: button;
- 	 animation-duration: 0.4s;
+	animation-name: button;
+ 	animation-duration: 0.4s;
+ 	box-shadow: 5px 5px #888888;
 
 }
 @keyframes button {
@@ -81,19 +94,29 @@ width : 541px;
   50% {width : 525px;
 		height: 30px;}
 }
-.list {
+
+#LISTA {
+	text-align: center;
+	font-size: 30px;
 	font-family: Comfortaa;
-		border: 5px solid #b39f7a;
- border-radius: 25px; 
+	box-sizing: : 4px solid #b39f7a;
+ 	border-radius: 25px; 
   background-color : #b0acaa;
-  width: 75px;
+  width: 150px;
   height: 30px;
+  list-style-type: none;
+  border: 5px solid #b39f7a;
+	background-color : #E1E8ED;
+	padding: 0px;
+	margin:0px
+	row: 8;
 }
 #H1 {
+		position: fixed;
 	font-family: comfortaa;	
-	position: fixed;
+
 }
-/*New Fint */
+/*New Font */
 @font-face {
   font-family: oswald;
   src: url(Oswald-VariableFont_wght.ttf);
@@ -128,3 +151,9 @@ border: 5px solid #b39f7a;
  width: 405px;
   height: 305px;	
 }*/
+		img{
+
+			float: top;
+		width: 10%;
+		
+		}
