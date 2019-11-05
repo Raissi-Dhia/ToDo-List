@@ -81,8 +81,13 @@ width : 541px;
   50% {width : 525px;
 		height: 30px;}
 }
-#DIV {
-	border: 30px
+.list {
+	font-family: Comfortaa;
+		border: 5px solid #b39f7a;
+ border-radius: 25px; 
+  background-color : #b0acaa;
+  width: 75px;
+  height: 30px;
 }
 #H1 {
 	font-family: comfortaa;	
@@ -107,14 +112,19 @@ width : 541px;
   100% {color: green;}
 }
 #H4 {
+	position: fixed;;
 	font-family: oswald;
 margin: 0px 0px 600px 700px;
 }
-#list {
+/*#list {
 	font-family: Comfortaa;
 border: 5px solid #b39f7a;
  border-radius: 25px; 
   background-color : #b0acaa;
   width: 400px;
   height: 300px;		
-}
+}*/
+/*#list:hover{
+ width: 405px;
+  height: 305px;	
+}*/

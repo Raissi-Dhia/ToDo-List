@@ -4,7 +4,8 @@ $('#button').click(function () {
 		return alert('Please enter a task !')
 	} else {
 	 $('#text').val('');	
-	return	$('#list').append('<div id="DIV"><li>' + value + '</li></div>');
+	// return	$('#list').append('<div id="DIV"><li>' + value + '</li></div>');
+return	$('#Todo').append('<h2>' + value + '</h2>').attr('class', 'list');
 }
 });
 //This is for the enter key press
@@ -16,7 +17,8 @@ $('#text').keypress(function(event){
 		return alert('Please enter a task !')
 	} else {
 	 $('#text').val('');	
-	return	$('#list').append('<div id="DIV"><li>' + value + '</li></div>');
+	// return	$('#list').append('<div id="DIV"><li>' + value + '</li></div>');
+		return	$('#Todo').append('<h2>' + value + '</h2>');
 		}
 	}
  event.stopPropagation();
