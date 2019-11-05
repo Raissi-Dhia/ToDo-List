@@ -11,7 +11,15 @@ header {
 footer {
   position: fixed;
   top: 800px;
-  right:;
+  left:10px;
   width: 300px;
-  border: 3px solid #73AD21;
+  border: 5px solid #b39f7a;
+  border-radius: 25px; 
+  background-color : #E1E8ED;
+}
+#ft {
+	margin-left : 40px; 
+}
+#text {
+	size : 35px;
 }
